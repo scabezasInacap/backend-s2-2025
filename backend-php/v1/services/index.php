@@ -5,7 +5,7 @@ include_once '../apiV1.php';
 
 switch ($_metodo) {
     case 'GET':
-        if ($_header === $_token_get_nosotros) {
+        if ($_header === $_token_get_servicios) {
             $data = array(
                 array(
                     //atributos
